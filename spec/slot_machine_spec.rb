@@ -28,5 +28,9 @@ describe SlotMachine do
     test_scenario(%w[🔔 🔔 🤩], 15)
     test_scenario(%w[7️⃣ 7️⃣ 🤩], 10)
     test_scenario(%w[🍒 🍒 🤩], 5)
+
+    # fails
+    test_scenario(%w[7️⃣ 🍒 🤩], 0)
+    test_scenario(%w[🍒 🔔 ⭐️], 0)
   end
 end
