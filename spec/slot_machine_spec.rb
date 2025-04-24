@@ -14,7 +14,7 @@ describe SlotMachine do
     # Three of the same
     test_scenario(%w[🤩 🤩 🤩], 50)
     test_scenario(%w[⭐️ ⭐️ ⭐️], 40)
-    test_scenario(%w[🛎 🛎 🛎], 30)
+    test_scenario(%w[🔔 🔔 🔔], 30)
     test_scenario(%w[7️⃣ 7️⃣ 7️⃣], 20)
     test_scenario(%w[🍒 🍒 🍒], 10)
 
